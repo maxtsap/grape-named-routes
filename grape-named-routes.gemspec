@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'grape/named/routes/version'
+require 'grape/named_routes/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "grape-named-routes"
-  spec.version       = Grape::Named::Routes::VERSION
+  spec.version       = Grape::NamedRoutes::VERSION
   spec.authors       = ["Maxim Tsaplin"]
   spec.email         = ["maxim.tsaplin@anahoret.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
